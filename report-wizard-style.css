@@ -1,0 +1,543 @@
+body{
+    padding:0px; margin:0px; position:relative; left:-1px; top:-1px;  margin:0;
+}
+@font-face{
+    font-family:simhei;
+    src:url("/report_wizard/css_styles/fonts/simhei.ttf");
+}
+.main-container-shield{
+    width:100%; height:100%; position:relative; display:inline-block; white-space: nowrap; margin:0px; top:0px;
+}
+.left-side-section{
+    width:25%; margin-top:0px;  height:100%;  float:left;  margin-left:0px; background:#fcfcfc;  position:fixed; top:0px;
+}
+.right-side-section{
+    margin-top:0px; width:75%;  position:fixed;   margin-left:25%;  background:white;  float:right;  height:100%; top:0px;
+}
+.icon-images{
+    width:25px; height:25px;  position:relative; top:2px; position:relative; left:10px; float:left;
+}
+.course-style-label{
+    font-size:12px; line-height: 30px;  letter-spacing: 0.0712em; position:relative;  font-family:sans-serif; left:16px; bottom:0px;   
+}
+.action-list-container{
+    list-style-type: none; position: relative; margin:0; display:block; width:100%; float:left; height:100%; left:0px; 
+}
+.action-list-arrange{
+    float:left; width:94%; position:relative;  left:5%; height:auto;
+}
+.link-target-container{
+    width:100%; height:40px; opacity:0.7;  border-left:2px solid #fcfcfc; 
+}
+.link-target-container:hover{
+    opacity: 1; border-left:2px solid #3CACAE;
+}
+.link-target-dynamic{
+    width:100%; height:40px; opacity:0.7; opacity: 1; border-left:2px solid #3CACAE;
+}
+.action-list-zone{
+    position:relative; margin-top:2px; width:100%; height:42px; margin-top:2px;
+}
+.left-top-detail{
+    width:100%; height:50px; text-align:center; font-size:15px; line-height: 30px; letter-spacing: 0.0712em; font-family: verdana;
+}
+.left-link-border{
+    width:100%; height:400px; position:relative; left:0px; margin-top:20px;
+}
+.app-mini-label{
+    text-align:left; font-size:15px; line-height: 30px; letter-spacing: 0.0212em; font-family: sans-serif; font-weight: bold;
+    position:relative; left:20px; top:6px;
+}
+.app-label{
+    text-align:left; font-size:20px; line-height: 30px; letter-spacing: 0.0212em; font-family:arial; 
+    position:relative; left:20px; top:6px; width:100%; height:20px;
+}
+.app-label-border{
+    width:100%; height:40px; float:left;
+}
+.mini-stats-box{
+    width:80%;  height:200px;  box-shadow:0px 0px 1px 1px #fcfcfc;  position:relative; margin-top:10px;    
+   
+}
+#recent-report-box{
+    overflow-y:scroll; overflow-x:hidden;
+    height:470px;
+
+}
+.mini-stats-box-top-label{
+    width:80%; height:100px; margin-top:20px;  box-shadow:0px 0px 1px 1px #fcfcfc;  position:relative;  border-radius:10px;
+}
+.main-information-pane{
+    float:left; width:70%; left:0px; display:block; white-space:nowrap;
+}
+.minor-details-pane{
+    float:right; width:30%; right:0px; display:block; 
+}
+.main-body-target{
+    width:100%; position:relative;  height:100%; margin-top:20px; float:left; display:none;
+}
+.landing-message-container{
+    width:100%; height:100%; margin-top:20px;  float:left;  background-size:cover;  background-repeat: no-repeat;
+}
+.report-category-border{
+    width:100%; height:50px; float:left; position:relative; margin-top:10px;
+}
+.category-query-result-container{
+    width:100%; height:500px; float:left; position:relative;
+}
+.switch-category-list{
+    width:170px; height:30px; float:left; left:10px; position:relative; opacity: 0.8; padding:1px;  border-radius:7px 7px 0px 0px;
+}
+.switch-category-list:hover{
+    opacity:1;
+}
+#students-category-focus-switch{
+    border-top:2px solid #f1f1f1; border-right:2px solid #f1f1f1;   
+}
+#programs-category-focus-switch{
+    border-bottom:2px solid #f1f1f1;  border-top:2px solid white;
+}
+.student-list-report-container{
+    width:100%; height:100%; position:relative; overflow-y:scroll;
+}
+.programs-list-report-container{
+    width:100%; height:100%; display:none; position:relative; overflow-y:scroll;
+}
+.report-navigation-icon{
+    width:22px; height:22px;  position:relative; top:4px; left:8px;
+}
+.report-navigation-label{
+    font-size:13px; line-height: 30px;  letter-spacing: 0.0712em;  position:relative;  font-family:verdana; left:14px; bottom:3px;
+}
+.student-template-list{
+    width:95%; position:relative; left:5%; border-bottom:1px solid #f1f1f1; padding-bottom:2px; height:40px;  opacity: 0.8;  margin-top:4px;
+}
+.student-template-list:hover{
+    opacity:1; 
+}
+.student-icon{
+    width:23px; height:23px; position:relative; left:10px; top:4.5px;
+}
+.student-name{
+    font-size:12px; line-height: 30px; letter-spacing: 0.0712em; font-family: sans-serif;  position:relative; left:20px; top:0px; color:#3CACAE;
+}
+.student-id{
+    font-size:12px; line-height: 30px; letter-spacing: 0.0712em; font-family: sans-serif;  position:relative; left:40px; top:0px;
+}
+.pdf-function-button{
+    width:150px; height:35px; border-radius:10px; 
+    float:right; position:relative; right:20px; top:3px; cursor:pointer;
+}
+.generate-pdf-action-label{
+    font-size:12px; font-family:verdana; letter-spacing: 0.0712em; cursor:pointer; position:relative; right:7px;
+}
+.pdf-icon{
+    width:20px; height:20px; position:relative; top:5px; cursor:pointer;
+}
+.drop-down-show-academic-sets{
+    width:15px; height:15px; position:relative; float:right; right:8px; top:6px; cursor:pointer; padding:3px;
+}
+.drop-down-show-academic-sets:hover{
+   border-radius:50px; box-shadow:0px 0px 1px 2px #f1f1f1;
+}
+.academic-sets-container{
+    height:auto; width:90%; position:relative; float:right;  border-left:3px dotted #3cacae; overflow:hidden; margin-top:10px;
+    margin-bottom:10px; display:none; 
+}
+.academic-set-label{
+    font-size:13px; font-family:arial; letter-spacing: 0.0812em; position:relative; line-height: 20px;
+    width:90%; height:30px; position:relative; text-align:left; left:10%; opacity: 0.8; cursor:pointer;
+}
+.academic-set-label-dynamic{
+    font-size:13px; font-family:arial; letter-spacing: 0.0812em; position:relative; line-height: 20px;
+    width:90%; height:30px; position:relative; text-align:left; left:10%; opacity: 1; cursor:pointer; color:#3CACAE; 
+}
+.academic-set-label:hover{
+    opacity:1;  color:#3CACAE; 
+}
+.transparent-effect{
+    width:101%;   height:100%; position:fixed; background:#191919; opacity:0.4; top:0px; float:left;  display: none;
+}
+.report-result-data-and-control{
+    width:70%;   height:100%; position:fixed; background:white; opacity:1; top:0px; float:left; left:15%;
+    display:block; box-shadow: 0px 0px 1px 1px #f1f1f1; white-space: nowrap;  display: none; overflow: hidden;
+}
+.report-result-control{
+    width:100%; height:6%; position:relative; top:0px; background:#fcfcfc; float:left;
+}
+.report-result-data-target-container{
+    width:100%; height:94%; position:relative; margin-top:6%; overflow:hidden;
+}
+.report-result-data-target{
+    width:90%; height:100%; position:relative; top:0%; left:2%; padding:2%; white-space: nowrap;
+}
+.close-report-wizard{
+    width:17px; height:17px; position:relative; left:10px; border-radius: 10px;  top:6px; padding:3px; opacity: 0.6; box-shadow: 0px 0px 1px 1px #f1f1f1;
+}
+.close-report-wizard:hover{
+    box-shadow: 0px 0px 1px 1px #f1f1f1; cursor:pointer; opacity: 1; 
+}
+.report-wizard-label{
+    font-size:13px; line-height: 20px; letter-spacing: 0.0712em; position:relative; left:40px; font-family: verdana; top:-1px; opacity: 0.6;
+}
+.pdf-save-button{
+    width:150px; height:35px; border-radius:10px; 
+    float:right; position:relative; right:20px; top:3px; cursor:pointer; opacity: 0.8;
+}
+.pdf-save-button:hover{
+    opacity:1;
+}
+.save-pdf-action-label{
+    font-size:12px; font-family:verdana; letter-spacing: 0.0712em; cursor:pointer; color:#3CACAE; font-weight:bold; right:3px; position:relative;
+}
+.pdf-save-icon{
+    width:18px; height:18px; position:relative; top:5px; cursor:pointer;
+}
+.welcome-message{
+    height:30px; font-size:15px; letter-spacing: 0.0712em; font-family:simhei;
+}
+.my-introduction{
+    height:50px; font-size:25px; letter-spacing: 0.0712em; font-family:sans-serif; color:#C26DBC;
+}
+.teaching-you{
+    height:200px; font-size:14px; letter-spacing: 0.0712em; font-family:arial; white-space: pre-line; line-height: 22px;
+    color:#3CACAE;
+}
+.position-message{
+    width:80%; height:90%; position:relative; top:5%;
+}
+.no-record-holder{
+    width:100%; height:100%;
+}
+.no-records-label{
+    font-size:20px; position:relative; letter-spacing: 0.0712em; color:gray; opacity:0.7; top:5px;
+    font-family:sans-serif;
+}
+.no-record-img{
+    width:70%; height:70%; position:relative; margin-top:20px; opacity:0.7;
+}
+.load-delay-pane{
+    width:100%; height:100%; margin-top:20px;  float:left;   background-size:cover; background-repeat: no-repeat;   display:none;
+}
+.load-delay-label{
+    font-size:20px; letter-spacing: 0.0712em; position: relative; color: #C26DBC; font-family:verdana; opacity: 0.7;
+    top:10%;
+}
+.load-delay-img{
+    width:160px; height:160px; position:relative; top:20%;
+}
+.responsive-label{
+    font-size:14px; letter-spacing: 0.0712em; position: relative; color:#3CACAE; font-family:sans-serif; opacity: 0.7;
+    top:10%;
+}
+.responsive-img{
+    width:80%; height:70%; position:relative; top:20%;
+}
+.uni-label{
+    width:230px; height:65px; float:left;
+}
+.load-effect{
+    width:70%;   height:100%; position:fixed; background:white; opacity:1; top:0px; float:left; left:15%;
+    display:block; box-shadow: 0px 0px 1px 1px #f1f1f1; white-space: nowrap;  display: none;
+}
+.load-effect-label{
+    font-size:15px; letter-spacing: 0.0712em; position: relative; color: #C26DBC; font-family:verdana; opacity: 0.7;
+    top:20%;
+}
+.load-effect-label-small{
+    font-size:12px; letter-spacing: 0.0712em; position: relative; color:gray; font-family:verdana; opacity: 0.7;
+    top:22%;
+}
+.load-effect-img{
+    width:160px; height:160px; position:relative; top:20%;
+}
+.pdf-report-anim-img{
+    width:50%; height:50%; position:relative; top:20%;
+}
+.app-version-label{
+    font-size:13px; letter-spacing: 0.0712em; position: relative; color: #3CACAE;font-family:verdana; opacity: 0.7;
+    top:10%;
+}
+.app-version-img{
+    width:50%; height:60%; position:relative; top:20%;
+}
+.hold-docs{
+    width:90%; left:5%;
+    height:200px; position:relative; 
+}
+.search-icon-label{
+    width:100px; height:40px; position:relative;
+    float:right; right:20px; 
+}
+.search-icon-label:hover{
+    border-radius:10px; opacity: 0.6;
+}
+.search-icon{
+    width:20px; height:20px; position: relative; top:6px;
+}
+.search-label{
+    font-size:14px; position: relative; top:1px; letter-spacing: 0.0712em;
+    
+}
+.search-label:hover{
+   
+    
+}
+.close-list-box{
+    width:18px; height:18px; position:relative; right:25px; padding:3px; top:6px;  opacity:0.6;
+}
+.close-list-box:hover{
+    border-radius:10px; box-shadow:0px 0px 1px 1px #f1f1f1; opacity:1;
+}
+.search-box-container{
+    height:auto; width:100%; display:none;
+}
+.close-search-part{
+    height:40px; width:100%; 
+
+}
+.search-input-part{
+    height:50px; width:96%; border-bottom:1px solid #f1f1f1; background-color: #fcfcfc;
+    border-radius: 20px; white-space:nowrap; text-align: left; word-wrap:break-word; 
+
+}
+.search-input-part-{
+    height:50px; width:98%;  border-radius:3px;
+    box-shadow: 0px 0px 1px 1px #f1f1f1;
+   
+}
+.search-result-part{
+    height:500px; width:98%; background:#fcfcfc; display:block; white-space: nowrap; position:relative; float:left;
+    overflow:hidden; left:1%; padding-top:20px; overflow-y:scroll;
+}
+
+.search-input-icon{
+    width:20px; height:20px; position: relative; top:15px; float:right; right:10px;
+}
+.empty-input-icon{
+    width:18px; height:18px; position: relative; top:15px; float:right; right:25px; border-radius:50px; padding:2px; display:none;
+}
+.empty-input-icon:hover{
+    background-color: #f1f1f1; opacity:0.7;
+}
+.close-search-icon{
+    width:18px; height:18px; position: relative; top:10px; float:right; right:5px;
+    padding:3px;
+}
+.close-search-icon:hover{
+    background-color: #f1f1f1; border-radius: 50px;
+ }
+.input-elem{
+    border:none; background:none; letter-spacing: 0.0712em;
+    width:80%; left:2%; position:relative;
+    float:left; height:100%; font-family:arial; font-size:14px;
+    text-align: left;
+}
+.input-elem:focus, input:focus{
+    outline: none;
+}
+.input-target{
+    border:none; background:none; letter-spacing: 0.0712em;
+    width:80%; left:2%; position:relative;
+    float:left; height:100%; font-family:arial; font-size:14px;
+    text-align: left;
+}
+.input-target:focus, input:focus{
+    outline: none;
+}
+.search-input{
+    width:90%; height:40px; border-radius:20px; border:2px solid #f1f1f1; letter-spacing: 0.0712em;
+    padding-left:2%; padding-right:2%;
+}
+.search-result-avatar{
+    width:20px; height:20px;  float:left; position:relative; left:5px;
+}
+.search-result-label{
+    font-size:14px; letter-spacing: 0.0712em; font-family:arial; float:left; position:relative; left:20px;
+    top:2px; color:#3CACAE;
+    
+}
+.search-result-label-{
+    position:relative; left:20px; color:#404040;
+}
+.each-search-result{
+    width:94%; height:40px; position:relative; margin-top:1px; left:1%;
+    padding-left:2%; padding-right:2%; padding-bottom:5px; overflow:hidden;
+}
+.each-search-result:hover{
+    border-radius:5px;
+}
+.object-to-print-box{
+    width:40%; height:40px; position:relative; display:none; float:right; border-radius:10px;  
+}
+.object-icon{
+    width:20px; height:20px; position:relative; margin-left:10px; margin-right:20px; top:7px; padding:4px;
+}
+.object-icon:hover{
+    box-shadow:0px 0px 2px 2px #f1f1f1; border-radius:10px;
+}
+.print-all-reports-icon{
+    width:100px; height:50px;  border-radius:0px 20px 10px 0px;  position:fixed; top:80%; box-shadow:0px 0px 1px 1px #f1f1f1;
+}
+.print-all-icon{
+    width:20px; height:20px; position:relative; right:10px; top:12px; float:right;
+}
+.print-all-progress{
+    width:50px; height:100%; position:relative; right:5px; top:0px; float:right; display:none;
+}
+.print-all-label{
+    font-size:13px; font-family: arial; position:relative;  letter-spacing: 0.0712em; top:15px; float:left; left:10px;
+}
+#hidden-pdf-result-container{
+    position:fixed; top:120%; height:100%; width:100%; background:white;
+    padding:0px; margin:0px;   margin:0;
+}
+.activity-label{
+    line-height: 30px; letter-spacing: 0.0712em; font-size:14px; font-family:arial;
+    text-align:left; align-content: left; position: relative; top:5px; left:10px; color:#404040;
+}
+.activity-label-box{
+    width:100%; height:30px;
+
+}
+#reports-progressing-container-box{
+    height:100%; width:100%; position:fixed; top:0px; background:none; display:none;
+}
+#reports-progressing-container{
+    height:400px; width:60%; position:relative; background:white; top:16%;
+}
+.close-download-pane{
+    width:18px; height:18px; position:relative; top:50px; float:left; left:18%; border-radius:50px;
+     box-shadow: 0px 0px 1px 1px #fcfcfc;  opacity:0.8;
+    cursor:pointer; padding:4px;
+}
+.close-download-pane:hover{
+    box-shadow: 0px 0px 1px 1px white; opacity:1; 
+}
+
+.wizard-acting-notice{
+    width:140px; height:140px; position: relative; top:40px;
+}
+.wizard-ready-notice{
+    width:70px; height:60px; position: relative; top:60px; left:-40px;
+}
+.wizard-acting-text{
+    font-size:15px; font-family:sans-serif; letter-spacing: 0.0712em; line-height: 20px; color:gray;
+    position: relative; top:-20px;
+}
+.wizard-ready-text{
+    font-size:15px; font-family:sans-serif; letter-spacing: 0.0712em; line-height: 20px; color:gray;
+    position: relative; top:35px;
+}
+.wizard-label{
+    font-size:20px;  font-family:sans-serif; line-height: 20px; text-align:left;
+}
+.report-ready-download{
+    width:150px; height:40px; border-radius:10px; color:#00E2D3; background:white; position:relative; font-size:15px;
+    top:180px;  box-shadow:0px 0px 1px 1px #f1f1f1; line-height: 40px; letter-spacing: 0.0712em; font-family:sans-serif;
+    cursor:pointer;
+}
+.report-ready-download:hover{
+    box-shadow:0px 0px 1px 3px #f1f1f1;
+}
+.file-name-download{
+    line-height: 20px; letter-spacing: 0.0712em; font-family: sans-serif; font-size:14px; position:relative;   top:140px;
+    width:60%;
+}
+.file-name-target{
+    line-height: 20px; letter-spacing: 0.0712em; font-family: sans-serif; font-size:14px; color:gray;
+}
+.student-main-pane{
+    width:60%; height:80%; background:white;  position:relative; top:10%;
+    left:4%; display:block; white-space: nowrap; overflow:hidden;
+}
+.single-report-block{
+    width:46%; height:100px;  background:white; box-shadow:0px 0px 1px 1px #00E2D3; position:relative;
+    float:left; left:10px; margin:10px; opacity:0.7; cursor:pointer; border-radius:8px;
+}
+.single-report-block:hover{
+    opacity:1;
+}
+.programs-rectangle{
+    width:40px; height:40px; position:relative; top:10px; 
+}
+.language-label{
+    font-size:14px; letter-spacing: 0.0712em; line-height: 20px; position: relative; top:20px;
+    font-family: sans-serif;
+}
+
+#j-s{
+    box-shadow:0px 0px 1px 1px #f1f1f1;
+}
+#j-s:hover{
+    box-shadow:0px 0px 1px 2px #00E2D3; border-radius:10px;
+}
+#c-ss{
+    box-shadow:0px 0px 1px 1px #FFE9E4;
+}
+#c-ss:hover{
+    box-shadow:0px 0px 1px 2px #00E2D3; border-radius:10px;
+}
+#cpp-s{
+    box-shadow:0px 0px 1px 1px #FFE9E4;
+}
+#cpp-s:hover{
+    box-shadow:0px 0px 1px 2px #00E2D3; border-radius:10px;
+}
+#py-s{
+    box-shadow:0px 0px 1px 1px #f1f1f1;
+}
+#py-s:hover{
+    box-shadow:0px 0px 1px 2px #00E2D3; border-radius:10px;
+}
+.student-profile-icon{
+    width:50px; height:50px; position:relative; border-radius:100px; float:left; left:20px; border:1px solid #ccc;
+}
+.profile-text-welcome{
+    font-size:15px; letter-spacing: 0.0712em; line-height: 20px; position: relative; top:10px;
+    font-family: sans-serif; text-align: left; font-weight:bold; float:left; left:20px;  width:100%; height:30px;
+}
+.profile-text{
+    font-size:14px; letter-spacing: 0.0712em; line-height: 20px; position: relative; top:10px;
+    font-family: sans-serif; text-align: left;  float:left; left:20px; width:100%; height:20px; color:#3CACAE;
+
+
+}
+.guide-text{
+    font-size:14px; letter-spacing: 0.0712em; line-height: 20px; position: relative; top:30px;
+    font-family: sans-serif; text-align: left;  float:left; left:20px; width:100%; height:20px; color:#00E2D3;
+
+
+}
+
+
+
+.major-list-part{
+    height:500px; width:98%; background:white; display:block; white-space: nowrap; position:relative; float:left;
+    overflow:hidden; left:1%; padding-top:20px; overflow-y:scroll;
+}
+.group-listing-box{
+    float:left; text-align:left; color:black;
+    width:100%; min-height:200px; max-height:350px; position:relative; top:55px; display:block; white-space:nowrap; 
+    overflow-y:scroll; overflow-x:hidden; padding-top:10px;
+}
+.each-group-list{
+    width:auto; height:30px; border-radius:15px; box-shadow:0px 0px 1px 1px #f0f0f0; padding:10px; margin:5px;
+    float:left; line-height:30px; margin-left:20px; margin-right:20px auto; padding-right:20px; padding-left:10px; font-size:14px; 
+    font-family:sans-serif; color:#505050; opacity:0.5; border:2px solid white; cursor:pointer; letter-spacing:0.0312em;           
+}
+.each-group-list:hover{
+    box-shadow:0px 0px 1px 3px #f1f1f1; opacity:1; transition: width 0.2s, height 0.3s;
+    font-weight:bold; border:4px solid white; 
+    padding-right:20px; padding-left:10px;  padding:8px;
+}
+.each-group-post-click{
+    width:auto; height:30px; border-radius:15px; box-shadow:0px 0px 1px 1px #f0f0f0; padding:10px; margin:5px;
+    float:left; line-height:30px; margin-left:20px; margin-right:20px auto; padding-right:20px; padding-left:10px; font-size:14px; 
+    font-family:sans-serif; color:#505050; opacity:0.5; border:2px solid white; cursor:pointer; letter-spacing:0.0312em;           
+}
+.each-group-post-click:hover{
+    box-shadow:0px 0px 1px 3px #f1f1f1; opacity:1; transition: width 0.2s, height 0.3s;
+    font-weight:bold; border:4px solid white; 
+    padding-right:20px; padding-left:10px;  padding:8px;
+}
